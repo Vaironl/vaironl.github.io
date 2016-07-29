@@ -3648,6 +3648,7 @@ h2.title {
 .index-page .brand h1 {
   font-size: 4.8em;
   font-weight: 600;
+  coloor:red;
 }
 .index-page .brand h3 {
   font-size: 1.5em;
@@ -3675,6 +3676,34 @@ background: -ms-linear-gradient(left, rgba(98,125,77,0.57) 0%, rgba(31,59,8,0.48
 background: linear-gradient(to right, rgba(98,125,77,0.57) 0%, rgba(31,59,8,0.48) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#1f3b08', GradientType=1 );
 
+}
+
+.container #apps-title-div
+{
+  text-align:center;
+  width: 90vw;
+  height: 20vh;
+}
+
+#google-play-logo
+{
+  position:relative;
+  right: 15vh;
+  width: 16vw;
+  height: 14vh;
+}
+
+#google-play-logo-2
+{
+  position:relative;
+  right: 20vh;
+  width: 16vw;
+  height: 14vh;
+}
+
+#google-play-logo:hover
+{
+  cursor: hand;
 }
 
 .landing-page .header {

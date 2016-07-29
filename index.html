@@ -22,6 +22,8 @@
 	<!-- CSS Just for demo purpose, don't include it in your project -->
 	<link href="assets/css/demo.css" rel="stylesheet" />
 
+	<script type="text/javascript" src="http://livejs.com/live.js"></script>
+
 </head>
 
 <body class="index-page">
@@ -38,7 +40,7 @@
 	    	<a href="#">
 	        	<div class="logo-container">
 	                <div class="logo">
-	                    <img src="assets/img/logo_vaironl.jpg" alt="Creative Tim Logo" rel="tooltip" title="<b>Material Kit</b> was Designed & Coded with care by the staff from <b>Creative Tim</b>" data-placement="bottom" data-html="true">
+	                    <img src="assets/img/logo_vaironl.jpg" alt="Creative Tim Logo" rel="tooltip" title="<strong>Follow Me</strong> Social Media links on the top right." data-placement="bottom" data-html="true">
 	                </div>
 	                <div class="brand">
 	                    Vairon M.
@@ -52,12 +54,12 @@
 	    <div class="collapse navbar-collapse" id="navigation-index">
 	    	<ul class="nav navbar-nav navbar-right">
 				<li>
-					<a rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/vaironxxrd" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+					<a rel="tooltip" title="Follow me on Twitter" data-placement="bottom" href="https://twitter.com/vaironxxrd" target="_blank" class="btn btn-white btn-simple btn-just-icon">
 						<i class="fa fa-twitter"></i>
 					</a>
 				</li>
 				<li>
-					<a rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/vaironl/" target="_blank" class="btn btn-white btn-simple btn-just-icon">
+					<a rel="tooltip" title="Follow me on Instagram" data-placement="bottom" href="https://www.instagram.com/vaironl/" target="_blank" class="btn btn-white btn-simple btn-just-icon">
 						<i class="fa fa-instagram"></i>
 					</a>
 				</li>
@@ -74,8 +76,8 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="brand">
-						<h1>Vairon Mendoza's Thoughts Website</h1>
-						<h3>Computer Science Student at GMU and Geospatial Intern</h3>
+						<h1>Software Developer Blog</h1>
+					<!-- 	<h3>Computer Science Student at GMU and Geospatial Intern</h3> -->
 					</div>
 				</div>
 			</div>
@@ -86,10 +88,11 @@
 	<div class="main main-raised">
 		<div class="section section-basic">
 	    	<div class="container">
-	            <div class="title">
-	                <h1>Some apps I have made</h1>
+	            <div id="apps-title-div" class="title">
+	                <h1 id="apps-title-header">Some apps I have made</h1>
 	            </div>
-
+	        </div>
+	    </div>
 
 	    <div class="section" id="carousel">
 			<div class="container">
@@ -113,20 +116,22 @@
 											<center><img width="250px" src="assets/img/timer_app_1.jpg" alt="Awesome Image"></center>
 											<div style= "padding-right:500px;" class="carousel-caption">
 												<h4 >Timers Android App</h4>
+												<a target="_blank" href="https://play.google.com/store/apps/details?id=com.apps.doza.timer"><img id="google-play-logo" src='assets/img/google-play-badge.png'></a>
 											</div>
 										</div>
 										<div style="background-color:#808080;" class="item">
 											<center><img width="294px" src="assets/img/car_app_1.jpg" alt="Awesome Image"></center>
 											<div style= "padding-right:500px;"  class="carousel-caption">
 												<h4>Car Logger App</h4>
+												<a target="_blank" href="https://play.google.com/store/apps/details?id=com.carlog.vairon.carlog"><img id="google-play-logo-2" src='assets/img/google-play-badge.png'></a>
 											</div>
 										</div>
 									</div>
 
 									<!-- Controls -->
-									<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+<!-- 									<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
 										<i class="material-icons">keyboard_arrow_left</i>
-									</a>
+									</a> -->
 									<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
 										<i class="material-icons">keyboard_arrow_right</i>
 									</a>
@@ -143,7 +148,7 @@
     <footer class="footer">
 	    <div class="container">
 	        <div class="copyright pull-right">
-	            &copy; 2016, made with <i class="material-icons">favorite</i> by Creative Tim for a better web.
+	            Designed by Vairon M. Using Creative Tim's Template
 	        </div>
 	    </div>
 	</footer>
