@@ -3801,4 +3801,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', end
   }
 }
 
+
+#mockrestaurant-github-page a:hover
+{
+  box-shadow: 1px 1px 10px black;
+  text-decoration: none;
+  border-radius: 10px;
+
+}
+
 /*# sourceMappingURL=material-kit.css.map */
