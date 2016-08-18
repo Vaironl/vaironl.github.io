@@ -3640,15 +3640,20 @@ h2.title {
 }
 .index-page .brand {
   margin-top: 30vh;
-  margin-left: -15vw;
   width: 90vw;
-  color: #FFFFFF;
+  color: white;
   text-align: center;
 }
 .index-page .brand h1 {
-  font-size: 4.8em;
-  font-weight: 600;
-  coloor:red;
+  font-size: 4.5em;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 50px;
+  border-bottom:1px solid white;
 }
 .index-page .brand h3 {
   font-size: 1.5em;
@@ -3681,7 +3686,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', end
 .container #apps-title-div
 {
   text-align:center;
-  width: 90vw;
+  width: 100%;
   height: 20vh;
 }
 
@@ -3802,12 +3807,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', end
 }
 
 
+#current-work
+{
+  display: inline-block;
+  margin:0 auto;
+  width: 100%;
+  font-weight: 200;
+}
+
+
+#mockrestaurant-github-page h2 a
+{
+  margin:0 auto;
+  color:black;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  font-weight: 400;
+}
+
+
+#mockrestaurant-github-page img
+{
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
 #mockrestaurant-github-page a:hover
 {
-  box-shadow: 1px 1px 10px black;
-  text-decoration: none;
-  border-radius: 10px;
-
 }
 
 /*# sourceMappingURL=material-kit.css.map */
