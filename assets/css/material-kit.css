@@ -2796,7 +2796,7 @@ h2.title {
   cursor: url("../img/arrow-right.png"), url("../img/arrow-right.cur"), default !important;
 }
 .carousel .carousel-indicators {
-  bottom: 5px;
+  bottom: 0%;
 }
 .carousel .carousel-indicators li,
 .carousel .carousel-indicators .active {
@@ -2816,13 +2816,19 @@ h2.title {
   transform: scale(1.5);
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 }
-.carousel .carousel-caption {
-  padding-bottom: 45px;
-}
 .carousel .carousel-caption .material-icons {
   position: relative;
   top: 5px;
 }
+
+
+.carousel-inner img
+{
+  margin:0 auto;
+  width: 30%;
+}
+
+
 
 .card {
   display: inline-block;
@@ -3690,20 +3696,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', end
   height: 20vh;
 }
 
+.carousel
+{
+  background-color:#808080;
+  height: 10%;
+}
+
+.carousel h4{
+  margin:0 auto;
+  position: relative;
+  display: block;
+  right:48%;
+  background-color: red;
+  font-size: 1.5em;
+  height: 8vh;
+}
+
 #google-play-logo
 {
   position:relative;
-  right: 15vh;
-  width: 16vw;
-  height: 14vh;
+  right:45%;
+  width: 40%;
+  height: 100%;
 }
 
 #google-play-logo-2
 {
   position:relative;
-  right: 20vh;
-  width: 16vw;
-  height: 14vh;
+  right:45%;
+  width: 40%;
+  height: 100%;
 }
 
 #google-play-logo:hover
@@ -3838,4 +3860,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', end
 {
 }
 
+
+.section
+{
+  height: 1000px;
+}
+
+.carousel-image
+{
+}
 /*# sourceMappingURL=material-kit.css.map */
