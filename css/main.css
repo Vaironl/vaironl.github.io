@@ -248,16 +248,6 @@ h3.right
 	text-align: right;
 }
 
-
-.projects-background.right-content h1
-{
-	float:right;
-	display: inline-block;
-	width: 100%;
-	margin-right: 45%;
-	text-align: right;
-}
-
 .projects-background.right-content p
 {
 	float:right;
@@ -301,4 +291,90 @@ footer
 {
 	font-size: 1.5em;
 	border-top: 2px solid black;
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        width: 320px;
+    }
+
+    nav h1{
+		font-size: 2em;
+		/*background-color: rgba(0,0,0,0);*/
+	}
+	.header-title
+	{
+		font-size: 4em;
+		width: 100%;
+	}
+
+	h3.right
+	{
+		padding:0;
+		margin-right:20px;
+		/*color:rgba(0, 0, 48, 1);*/
+	}
+
+	.special-background h1
+	{
+		display: inline;
+		width: 100%;
+		font-size: 3.5em;
+	}
+
+	.projects-background h1
+	{
+		text-align: left;
+		margin:0;
+		margin-top: 5%;
+		padding:0;
+		width: 100%;
+	}
+
+	.projects-background.left-content p
+	{
+		float:left;
+		text-align: left;
+		margin:0;
+		margin-top: 5%;
+		padding:0;
+		width: 100%;
+		font-size: 1.5em;
+	}
+
+	.projects-background.right-content p
+	{
+		float:left;
+		text-align: left;
+		margin-top: 5%;
+		font-size: 1.5em;
+		margin:0;
+		padding:0;
+		width: 100%;
+	}
+
+	.github-section.github-card
+	{
+
+		border:10px solid black;
+
+	}
+
+	.github-section h1
+	{
+		display: inline-block;
+		text-align: center;
+		margin:0 autom;
+		width: 100%;
+		font-size: 2.4em;
+	}
+
+	.github-section p
+	{
+		text-align: left;
+		float:left;
+		width: 100%;
+	}
+
+
 }
