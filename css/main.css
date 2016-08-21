@@ -293,6 +293,7 @@ footer
 	border-top: 2px solid black;
 }
 
+/*Iphone 5*/
 @media only screen and (max-width: 320px) {
     body {
         width: 320px;
@@ -376,5 +377,300 @@ footer
 		width: 100%;
 	}
 
+	.spinning-square
+	{
+		width: 16vw;
+		height: 10vh;
+	}
 
 }
+
+/*Iphone 5 END*/
+
+/*Iphone 6*/
+@media only screen and (max-width: 375px) {
+    body {
+        width: 375px;
+    }
+
+    nav h1{
+		font-size: 2.45em;
+		/*background-color: rgba(0,0,0,0);*/
+	}
+	.header-title
+	{
+		font-size: 4.5em;
+		width: 100%;
+	}
+
+	h3.right
+	{
+		padding:0;
+		margin-right:20px;
+		/*color:rgba(0, 0, 48, 1);*/
+	}
+
+	.special-background h1
+	{
+		display: inline;
+		width: 100%;
+		font-size: 3.5em;
+	}
+
+	.projects-background h1
+	{
+		text-align: left;
+		margin:0;
+		margin-top: 5%;
+		padding:0;
+		width: 100%;
+	}
+
+	.projects-background.left-content p
+	{
+		float:left;
+		text-align: left;
+		margin:0;
+		margin-top: 5%;
+		padding:0;
+		width: 100%;
+		font-size: 1.5em;
+	}
+
+	.projects-background.right-content p
+	{
+		float:left;
+		text-align: left;
+		margin-top: 5%;
+		font-size: 1.5em;
+		margin:0;
+		padding:0;
+		width: 100%;
+	}
+
+	.github-section h1
+	{
+		display: inline-block;
+		text-align: center;
+		margin:0 autom;
+		width: 100%;
+		font-size: 2.4em;
+	}
+
+	.github-section p
+	{
+		text-align: left;
+		float:left;
+		width: 100%;
+	}
+
+	.spinning-square
+	{
+		width: 16vw;
+		height: 10vh;
+	}
+
+}
+/*Iphone 6 END*/
+
+
+
+/*Iphone 6S*/
+@media only screen and (max-width: 414px) {
+    body {
+        width: 414px;
+    }
+
+    nav h1{
+		font-size: 2.70em;
+		/*background-color: rgba(0,0,0,0);*/
+	}
+	.header-title
+	{
+		font-size: 4.5em;
+		width: 100%;
+	}
+
+	h3.right
+	{
+		padding:0;
+		margin-right:20px;
+		/*color:rgba(0, 0, 48, 1);*/
+	}
+
+	.special-background h1
+	{
+		display: inline;
+		width: 100%;
+		font-size: 3.5em;
+	}
+
+	.projects-background h1
+	{
+		text-align: left;
+		margin:0;
+		margin-top: 5%;
+		padding:0;
+		width: 100%;
+	}
+
+	.projects-background.left-content p
+	{
+		float:left;
+		text-align: left;
+		margin:0;
+		margin-top: 5%;
+		padding:0;
+		width: 100%;
+		font-size: 1.5em;
+	}
+
+	.projects-background.right-content p
+	{
+		float:left;
+		text-align: left;
+		margin-top: 5%;
+		font-size: 1.5em;
+		margin:0;
+		padding:0;
+		width: 100%;
+	}
+
+	.github-section h1
+	{
+		display: inline-block;
+		text-align: center;
+		margin:0 autom;
+		width: 100%;
+		font-size: 2.4em;
+	}
+
+	.github-section p
+	{
+		text-align: left;
+		float:left;
+		width: 100%;
+	}
+
+	.spinning-square
+	{
+		width: 16vw;
+		height: 10vh;
+	}
+
+}
+/*Iphone 6S END*/
+
+/*Iphone Ipad*/
+@media only screen and (max-width: 768px) {
+    body {
+        width: 768px;
+    }
+
+    nav h1{
+		font-size: 4.70em;
+		/*background-color: rgba(0,0,0,0);*/
+	}
+	.header-title
+	{
+		font-size: 4.5em;
+		width: 100%;
+	}
+
+	h3.right
+	{
+		padding:0;
+		margin-right:20px;
+		font-size: 2em;
+		/*color:rgba(0, 0, 48, 1);*/
+	}
+
+	.special-background h1
+	{
+		display: inline;
+		width: 100%;
+		font-size: 4em;
+	}
+
+	.special-background h2
+	{
+		font-size: 3em;
+	}
+
+	.special-background img
+	{
+		display: inline-block;
+		margin-right: 14%;
+	}
+
+	.projects-background h1
+	{
+		text-align: left;
+		margin:0;
+		margin-top: 5%;
+		padding:0;
+		width: 100%;
+		text-align: left;
+		float:left;
+		display: inline-block;
+	}
+
+	.projects-background.left-content p
+	{
+		float:left;
+		text-align: left;
+		margin:0;
+		margin-top: 5%;
+		padding:0;
+		width: 100%;
+		font-size: 2.5em;
+	}
+
+	.projects-background.right-content h1
+	{
+		display: block;
+		float:left;
+		text-align: left;
+		margin-bottom: 5%;
+	}
+
+	.projects-background.right-content p
+	{
+		float:left;
+		text-align: left;
+		margin-top: 5%;
+		font-size: 2.5em;
+		margin:0;
+		padding:0;
+		width: 100%;
+	}
+
+	.github-section h1
+	{
+		display: inline-block;
+		text-align: center;
+		margin:0 auto;
+		width: 100%;
+		font-size: 5em;
+	}
+
+	.github-card {
+		width:100vw;
+	}
+
+	.github-section p
+	{
+		text-align: left;
+		float:left;
+		width: 100%;
+		font-size: 3em;
+	}
+
+	.spinning-square
+	{
+		width: 16vw;
+		height: 10vh;
+	}
+
+}
+/*Iphone IPAD END*/
