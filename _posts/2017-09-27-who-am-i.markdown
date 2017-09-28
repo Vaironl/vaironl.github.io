@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Who Am I?"
+date:   2017-09-27 23:36:00 -0400
+categories:
+---
+Hey!
+
+I'm Vairon Mendoza a software developer. I thought I would only ever focus on doing Android development, but as of lately I have been finding myself doing a lot of Front End stuff.
+
+This page is still in progress.
