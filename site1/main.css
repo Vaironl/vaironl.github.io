@@ -1,0 +1,384 @@
+@font-face {
+    font-family:Nuptial;
+		src:url('Nuptial.woff') format('woff');
+}
+
+@font-face {
+    font-family:Papyrus;
+    src: url("PAPYRUS.TTF");
+}
+
+
+
+body
+{
+	background-color:white;
+
+
+}
+
+body, html
+{
+	height: 100%;
+}
+
+.home-jumbotron
+{
+	margin-bottom: 0vh;
+	height: 100vh;
+	/* background-image: url('images/top_image.jpg');	 */
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%,
+	rgba(0, 0, 0, 0.6) 50%,
+	 rgba(0, 0, 0, 0.7) 100%),
+	  url('images/top_image.jpg');
+	/* Center and scale the image nicely */
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.center-div
+{
+	margin:0 auto;
+	width: 100%;
+}
+
+.top-container
+{
+	background-color: white;
+	height: 620px;
+	margin-bottom: 10px;
+	margin-top: 50px;
+
+}
+
+#home
+{
+	/* margin-top: 40px; */
+
+}
+
+#home h1
+{
+	font-size: 4em;
+}
+
+.main-container
+{
+	background-color: rgba(255, 255, 255, 0.5);
+
+	height: 660px;
+	width: 80%;
+	margin:0 auto;
+	border-radius: 10px;
+	box-shadow: 3px 5px 20px black;
+}
+
+
+#fa-link, #fa-link:visited {
+    color: black !important;
+}
+
+#fa-link:hover, #fa-link:active {
+    color: #2b4170 !important;
+}
+
+#fa-link {
+    color: black !important;
+}
+
+
+#title-h1
+{
+	color:white;
+	top:28vh;
+}
+
+#location-h3
+{
+	color:white;
+	top:37vh;
+}
+
+
+#location-alert
+{
+	text-align: center;
+	top:50vh;
+}
+
+.main-carousel
+{
+	height:70vh;
+}
+
+.carousel-cell{
+	height:100%;
+}
+.carousel-cell img
+{
+	height: 100%;
+	width:auto;
+}
+
+.service
+{
+	height: 680px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	background-color: #0277bd;
+	width: 100%;
+
+}
+
+.titles h1, h2, h3
+{
+
+	padding:0;
+	margin:0;
+}
+
+
+.titles h1
+{
+	margin-bottom: 3vh;
+}
+.titles h2
+{
+	color:gray;
+	margin-bottom: 3vh;
+}
+
+.titles h3
+{
+	color:#5078ba;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+
+.service h1
+{
+	color:white;
+}
+
+#position
+{
+	/*top:2vh;*/
+}
+
+.jumbotron
+{
+	background:transparent !important;
+	background-color:white;
+}
+
+.about-info
+{
+	background-color: white;
+	border:1px solid black;
+	height: 120px;
+}
+
+.about-artist-title
+{
+	border-bottom: 1px solid black;
+	display: inline-block;
+}
+
+
+
+.service-cat
+{
+	font-size: 2em;
+}
+
+.service-cat button
+{
+	color:#141823;
+	margin-right: 20px;
+	background-color: transparent !important;
+	border:none;
+}
+
+.service-cat button:hover
+{
+	text-decoration:underline;
+}
+
+.services-info
+{
+	height: 50vh;
+	border:1px solid black;
+}
+
+.service-display
+{
+	height: 500px;
+	background-color: #e3e3e3;
+}
+
+.galleria
+{
+	width: 100%;
+	height: 600px;
+}
+
+
+.service-content{
+	font-size: 1.5em;
+}
+
+.service-display h1
+{
+	margin:0;
+	padding:0;
+}
+
+.service-jumbotron
+{
+	position: relative;
+	top:30%;
+
+}
+
+.img-placeholder
+{
+	border:1px solid black;
+	height: 500px;
+}
+
+.bridal-img
+{
+   height: 450px;
+}
+
+.contact-us
+{
+	/*height: 300px;*/
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
+.contact-container
+{
+	width: 80%;
+	margin:0 auto;
+}
+
+.contact-container h1
+{
+	margin:0;
+}
+
+.contact-container form
+{
+
+
+}
+
+.services-title,.about-title
+{
+  font-size: 6vh !important;
+}
+
+
+.contact-container form textarea
+{
+	display: block;
+
+}
+
+footer
+{
+	color:black;
+	height: 120px;
+	border-top:1px solid black;
+}
+
+footer .container
+{
+	width: 80%;
+}
+
+/*Social Media Title*/
+.sm-title
+{
+	text-decoration: underline;
+}
+
+
+
+.row1
+{
+	margin-top: 5px;
+}
+
+ul
+{
+font-size: 1.5em;
+}
+
+.sm-column
+{
+	margin:0px;
+	padding:0px;
+	margin-top: 20px;
+}
+
+.social-media-logo i
+{
+	margin-right: 15px;
+}
+
+.company-logo
+{
+	margin:0px;
+	padding:0px;
+}
+
+
+.footer-links
+{
+	margin:0px;
+	padding:0px;
+}
+
+.footer-links ul
+{
+	margin:0px;
+	padding:0px;
+	height: 50%;
+	margin-top: 20px;
+	vertical-align: middle;
+}
+
+#copyright-text
+{
+	font-size: 1.3em;
+	margin-top: 20px;
+}
+
+
+/* #title-h1{
+	font-family:test;
+
+	font-size: 17vh !important;
+} */
+
+
+.paragraph-style{
+	font-family:Papyrus;
+	font-size: 3vh !important;
+  line-height: 1.5em !important;
+}
