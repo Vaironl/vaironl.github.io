@@ -9,11 +9,9 @@
 }
 
 
-
 body
 {
 	background-color:white;
-
 
 }
 
@@ -378,7 +376,7 @@ font-size: 1.5em;
 
 
 .paragraph-style{
-	font-family:Papyrus;
+	/* font-family:Papyrus; */
 	font-size: 3vh !important;
   line-height: 1.5em !important;
 }
