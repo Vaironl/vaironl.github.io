@@ -80,12 +80,12 @@ section {
 
 // Highlight color customization
 ::-moz-selection {
-  background: $primary;
+  background: $highlight;
   text-shadow: none;
 }
 
 ::selection {
-  background: $primary;
+  background: $highlight;
   text-shadow: none;
 }
 
@@ -98,5 +98,5 @@ img::-moz-selection {
 }
 
 body {
-  -webkit-tap-highlight-color: $primary;
+  -webkit-tap-highlight-color: $highlight;
 }
