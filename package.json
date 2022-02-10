@@ -31,7 +31,7 @@
     "gulp-less": "^4.0.1",
     "jquery": "^3.6.0",
     "jquery.easing": "^1.4.1",
-    "node-sass": "^5.0.0"
+    "node-sass": "^7.0.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.14",
